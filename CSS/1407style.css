@@ -1,0 +1,389 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+a {
+    all:unset;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px 2rem;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .head-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(148, 148, 148);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+section {
+    width: 100%
+}
+
+.main {
+    margin-top: 60px;
+    height: 400px;
+    background-image: url(https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F6bd7350f-42d4-487d-9831-d6b84d89e23b%2FKakaoTalk_20230817_040924845_04.jpg?table=block&id=bb49af0a-9af8-4690-bc31-7eb5e5db5f6c&spaceId=fc741d2c-c253-4ece-91a8-2b5922cf4b3e&width=2000&userId=66c1e87f-f351-4167-a74a-de250e68202c&cache=v2);
+    background-repeat: none;
+    background-size: cover;
+    z-index: 1;
+    background-position: 0 54%;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(67, 102, 135, 0.7);
+}
+
+.title-container {
+    padding-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.message {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+}
+
+.skill-container {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(238, 238, 249, 0.66);
+}
+
+.skill-container1{
+    height: 400px;
+    margin-left: 10px;
+    width: 750px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill-container2 {
+    height: 100%;
+    width: 750px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill {
+    margin-left: 50px;
+    width: 350px;
+    height: 140px;
+    margin-top: 1rem;
+    box-shadow: 0px 1px 40px 4px rgba(0, 0, 0, 0.2); 
+    border-radius: 26px;
+    padding: 10px;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+}   
+
+.skill1 {
+    margin-left: 60px;
+    margin-top: 1rem;
+    width: 195px;
+    height: 140px;
+    box-shadow: 0px 1px 40px 4px rgba(0, 0, 0, 0.2); 
+    border-radius: 26px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.skill2 {
+    width: 300px;
+    height: 170px;
+    margin-top: 1rem;
+    box-shadow: 0px 1px 40px 4px rgba(0, 0, 0, 0.2); 
+    border-radius: 26px;
+    padding: 10px;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+}
+
+.skill3 {
+    width: 300px;
+    height: 170px;
+    margin-top: 1rem;
+    box-shadow: 0px 1px 40px 4px rgba(0, 0, 0, 0.2); 
+    border-radius: 26px;
+    padding: 10px;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+
+.skill-content {
+    width: 80px; 
+    height: 80px; 
+    background: #F0B8B8; 
+    box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.2); 
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-container {
+    width: 270px;
+    height: 100px;  
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-content{
+    color: white; 
+    font-size: 15px; 
+    font-family: Inter; 
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.skill-message {
+    font-size: 1rem;
+    padding: 5px 0 5px 0;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.skill-message1 {
+    font-size: 1rem;
+    padding: 5px 0 5px 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.skillm-container {
+    padding-top: 3px;
+}
+
+.skill-title {
+    font-size: 1.80rem;
+    font-weight: 1000;
+    text-align: center;
+    padding: 10px;
+}
+
+.project-container{
+    width: 240px; 
+    height: 340px; 
+    background: rgb(255, 255, 255); 
+    box-shadow: 0px 1px 40px 4px rgba(0, 0, 0, 0.2); 
+    border-radius: 37px;
+}
+
+.project-title { 
+    text-align: center; 
+    padding: 20px 20px 0px 20px;
+    color: #040000; 
+    font-size: 25px; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+
+.project-contentT {
+    padding: 5px 0 5px 0;
+    margin-left: 20px;
+    color: black; 
+    font-size: 25px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.project-content {
+    padding: 5px 0 5px 0;
+    margin-left: 20px;
+    color: black; 
+    font-size: 13px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.activities {
+    padding: 5px 0 5px 0;
+    margin-left: 18px;
+    color: black; 
+    font-size: 14px; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600; 
+    word-wrap: break-word;
+}
+
+.input-container{
+    margin-top: 27px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 195px;
+    height: 65px;
+    background: rgb(254, 254, 254); 
+    box-shadow: 0px 1px 7px 5px rgba(0, 0, 0, 0.2); 
+    border-radius: 35px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-container:hover {
+    transform: translate(0px, -5px);
+}
+
+.input-button { 
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black; 
+    font-size: 22px; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.banner-container {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    z-index: 10000;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.banner-container1 {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    z-index: 10000;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-container:hover {
+    transform: rotateY( 360deg );
+}
+
+.banner-container1:hover {
+    transform: rotateY( 360deg );
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.footer-container .footer-content {
+    color: rgb(147, 147, 147);
+    font-family: 'Hahmlet', serif;
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 1100px) {
+    .inner{
+        max-width: 1100px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .skill-container{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    footer{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 682px) {
+    .skill-container2{
+        display: none;
+    }
+}
